@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        .responsive {
+          width: auto;
+          
+        }
+        
+        .big-text{
+            font-size: 48px;
+            margin: 20px 0;
+            color:darkorange; 
+        }
+        .med-text{
+            font-size: 25px;
+            margin: 30px 0;
+            color: black;
+        }
+        .button{
+            margin: 30px 10px;
+            width: 150px;
+            padding: 10px;
+            border-radius: 20px;
+            background-color: darkorange;
+            color: #ffffff;
+        }
+        .section-1{
+            padding: 20vmin 0;
+            background-color: orange;
+        }
+
+        .section-1.row.col-md-6.pray img{
+            opacity: 0.8;
+            width: 80%;
+            border-radius: 0.2em;;
+        }
+
+        .section-1.row.col-md-6:last-child{
+            position: relative;
+        }
+
+        .section-1 .row .col-md-6.panel{
+            position :absolute;
+            top: 7vmin;
+            left: -18vmin;
+            background: darkorange;
+            border-radius: 3px;
+            text-align:left;
+            padding: 13vmin 5vmin 20vmin 10vmin;
+            box-shadow: 0px 25px 42px rgba(0, 0,0, 0.2)
+        }
+        .line {
+            height: 4px;
+            width: 320px;
+            margin-left: 0;
+            background-color: black;
+            display: inline-block;
+        }	
+        .card {
+            margin: 80px; 
+            
+        }
+        .card:hover {
+            transform: scale(1.1);
+            transition: ease-in-out 0.3s;
+            box-shadow: 20px 20px 20px rgba(0, 0, 0, 1);
+            
+        }
+    
+        
+        .card-img-top {
+            width: 120px; 
+            height:120px; 
+            border-radius: 50%; 
+            margin-left: 60px; 
+            margin-top: 20px;  
+        }
+        .card-title {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+    </style>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="profilelogo9.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Connect</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--Home-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="big-text">Welcome to My Personal Profile Website!</p>
+                <p class="med-text">by Patrick Alexander</p>
+                <a class="button" href="#">Contact me</a>
+            </div>
+            <div class="col-sm-6">
+                <img src="deadpool3.jpg" class="responsive" >
+            </div>
+        </div>
+    </div>
+<!--About me-->
+<main>
+    <section class="section-1">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="pray">
+                        <img src="pasfoto.jpg">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel text-left">
+                        <h1>Patrick Alexander</h1>
+                        <p class="pt-4 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra urna eu odio lacinia, 
+                            eget consectetur elit maximus. Duis eu diam ac erat convallis congue nec at leo. Aliquam erat volutpat. 
+                            Sed auctor auctor nunc, vitae sodales orci lacinia id. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>    
+
+<!--skills-->
+<div class="skillbox">
+    <h1 style="text-align: center;"><b>My Skills</b> <br>
+      <span  class="line"></span></h1>
+  
+    <div class="row">
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="images.png" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">HTML</h4>
+          </div>
+        </div></div>
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="css3-logo.png" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">CSS</h4>
+          </div>
+        </div></div>
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="images (2).png" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">JavaScript</h4>
+          </div>
+        </div></div>
+  
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="58480e35cef1014c0b5e4920.png" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">Laravel</h4>
+          </div>
+        </div></div>
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="images.jpg" alt="Card image">
+          <div class="card-body">
+               <h4 class="card-title">PHP</h4>
+          </div>
+        </div></div>
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="React.js_logo-512.png" alt="Card image">
+          <div class="card-body">
+               <h4 class="card-title">ReactJS</h4>
+          </div>
+        </div></div>
+  
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="images (1).jpg" alt="Card image">
+          <div class="card-body">
+              <h4 class="card-title">Bootstrap</h4>
+          </div>
+        </div></div>
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="django-icon-0.jpg" alt="Card image">
+          <div class="card-body">
+               <h4 class="card-title">Django</h4>
+          </div>
+        </div></div>
+      <div class="col-sm-4">
+          <div class="card">
+          <img class="card-img-top" src="1024px-Python-logo-notext.svg.png" alt="Card image">
+          <div class="card-body">
+               <h4 class="card-title">Python</h4>
+          </div>
+        </div></div>
+  
+    </div> 
+    
+  </div>
+  </body>
+</html>
